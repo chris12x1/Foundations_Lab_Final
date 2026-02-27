@@ -39,6 +39,18 @@ While technical skill provides the "how" of cybersecurity, governance provides t
 * **Accounting:** Tracking user actions to establish **Non-repudiation**—the legal certainty that a specific user performed a specific action, backed by immutable logs.
 
 
+# Lab Infrastructure & Virtualization Setup
+* **Hypervisor:** The software layer (like VirtualBox) that creates and runs virtual machines by isolating the hardware from the operating system.
+* **Virtual Machine (VM):** A digital version of a physical computer that runs on a hypervisor, using a portion of the host’s CPU, memory, and storage.
+* **Isolation:** In cybersecurity, isolation ensures that if a VM is compromised or crashes, the "blast radius" is contained, and the Host OS (Windows) remains safe.
+
+# The CIA Triad in Virtualization
+* **Confidentiality:** Ensures that data within one VM cannot be accessed by another VM on the same host.
+* **Integrity:** Snapshots allow us to revert a VM to a "known good state" if files are corrupted or altered.
+* **Availability:** Resources can be shifted dynamically, and VMs can be backed up or moved to different hardware to ensure uptime.
+
+## Reflection
+Isolation is critical when testing software or malware because it prevents malicious code from 'escaping' the test environment and infecting the host machine or the wider network. Virtualization supports secure experimentation by allowing us to create sandboxed environments where we can fail safely without permanent hardware damage. Today’s material aligns most closely with the Cloud Security and Network Security domains. Building virtualized infrastructure is the foundation of cloud computing, while configuring adapters and Packet Tracer topologies addresses network defense. Mastering these tools allows a professional to simulate complex attacks and defenses in a controlled space.
 
 ---
 
