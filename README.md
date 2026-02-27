@@ -1,8 +1,8 @@
 # Foundations_Lab_Final
 
 **Student Name:** Christopher Diaz  
-**Course:** Cybersecurity Foundations Intensive: Night 2  
-**Date:** February 24, 2026  
+**Course:** Cybersecurity Foundations Intensive: Night 4  
+**Date:** February 26, 2026  
 **Instructor:** George Robbins  
 
 ---
