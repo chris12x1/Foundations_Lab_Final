@@ -44,10 +44,16 @@ While technical skill provides the "how" of cybersecurity, governance provides t
 * **Virtual Machine (VM):** A digital version of a physical computer that runs on a hypervisor, using a portion of the host’s CPU, memory, and storage.
 * **Isolation:** In cybersecurity, isolation ensures that if a VM is compromised or crashes, the "blast radius" is contained, and the Host OS (Windows) remains safe.
 
-# The CIA Triad in Virtualization
-* **Confidentiality:** Ensures that data within one VM cannot be accessed by another VM on the same host.
-* **Integrity:** Snapshots allow us to revert a VM to a "known good state" if files are corrupted or altered.
-* **Availability:** Resources can be shifted dynamically, and VMs can be backed up or moved to different hardware to ensure uptime.
+## Security Philosophy
+In this lab, the deployment of a virtualized Linux environment serves as a practical application of the CIA Triad, bolstered by the principle of isolation. By using a Type-2 Hypervisor (VirtualBox), I have created a sandbox that separates the guest Ubuntu Server from my Windows host. This isolation is a fundamental security control that prevents "guest-to-host" escapes, ensuring that any testing or malicious activity within the VM does not compromise the primary system (National Institute of Standards and Technology [NIST], 2023).
+
+I have mapped my lab environment to the CIA Triad as follows:
+
+* **Confidentiality**: Through the use of VirtualBox's internal networking and Host-Only Adapters, data remains isolated within the virtual segment. This ensures that sensitive configuration files, like my `.env` or audit logs, are not exposed to the public internet or unauthorized users on the local network.
+* **Integrity**: Virtualization provides the ability to use snapshots and immutable logging scripts. By running the `lab_verify.sh` script, I establish a baseline of system health. This aligns with governance frameworks that require non-repudiation and the detection of unauthorized changes to ensure the data remains accurate and trustworthy (NIST, 2024).
+* **Availability**: By allocating specific CPU and RAM resources to the Ubuntu VM, I ensure that the infrastructure remains responsive. Virtualization allows for rapid recovery; if the server fails, it can be redeployed or restored from a backup without affecting the availability of the host machine.
+
+Building this isolated environment is essential for secure experimentation, as it allows for the simulation of network attacks and defense strategies within a controlled "blast radius"
 
 ## Reflection
 Isolation is critical when testing software or malware because it prevents malicious code from 'escaping' the test environment and infecting the host machine or the wider network. Virtualization supports secure experimentation by allowing us to create sandboxed environments where we can fail safely without permanent hardware damage. Today’s material aligns most closely with the Cloud Security and Network Security domains. Building virtualized infrastructure is the foundation of cloud computing, while configuring adapters and Packet Tracer topologies addresses network defense. Mastering these tools allows a professional to simulate complex attacks and defenses in a controlled space.
