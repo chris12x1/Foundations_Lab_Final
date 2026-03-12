@@ -29,17 +29,19 @@ Students were required to demonstrate the following:
 The lab infrastructure consisted of a host machine running a virtualized Linux environment.
 
 ## Architecture
+
+```
 Host Machine
 │
 ├── VS Code (development environment)
 │
 └── VirtualBox
-│
-└── Ubuntu Server Virtual Machine
-│
-└── Bash verification script
+    │
+    └── Ubuntu Server Virtual Machine
+        │
+        └── Bash verification script
+```
 
----
 
 # Network Simulation
 
