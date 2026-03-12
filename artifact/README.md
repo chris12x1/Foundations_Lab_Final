@@ -29,7 +29,6 @@ Students were required to demonstrate the following:
 The lab infrastructure consisted of a host machine running a virtualized Linux environment.
 
 ## Architecture
-
 Host Machine
 │
 ├── VS Code (development environment)
