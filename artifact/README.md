@@ -49,13 +49,15 @@ A basic network topology was created using Cisco Packet Tracer to simulate conne
 ```
 PC1 -------- PC2
 
+```
+
 Successful communication between the systems is indicated by a **green connection link**, confirming that the simulated network is functioning properly.
 
 ---
 
 # Repository Structure Section
 
-```
+
 ## Repository Structure
 
 ```
