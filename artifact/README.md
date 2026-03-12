@@ -42,17 +42,11 @@ Host Machine
         └── Bash verification script
 ```
 
-# Network Simulation
-
-A basic network topology was created using Cisco Packet Tracer.
-
----
-
 ## Network Simulation
 
 A basic network topology was created using Cisco Packet Tracer to simulate connectivity between two hosts.
 
-```text
+```
 PC1 -------- PC2
 
 Successful communication between the systems is indicated by a **green connection link**, confirming that the simulated network is functioning properly.
@@ -61,10 +55,10 @@ Successful communication between the systems is indicated by a **green connectio
 
 # Repository Structure Section
 
-```markdown
+```
 ## Repository Structure
 
-```text
+```
 Foundations_Lab_Final
 │
 ├── artifacts
@@ -74,6 +68,8 @@ Foundations_Lab_Final
 │
 └── README.md
 ---
+
+```
 
 # Artifact Descriptions
 
