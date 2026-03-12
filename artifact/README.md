@@ -69,7 +69,6 @@ Foundations_Lab_Final
 │   └── setup_verify.txt
 │
 └── README.md
----
 
 ```
 
