@@ -62,10 +62,14 @@ Isolation is critical when testing software or malware because it prevents malic
 
 ## References
 
-Center for Internet Security. (2024). *CIS Controls Version 8.1*. https://www.cisecurity.org/controls/v8-1
+Center for Internet Security. (2024). *CIS Controls version 8.1.*  
+https://www.cisecurity.org/controls/v8-1
 
-National Institute of Standards and Technology. (2023). *Zero trust architecture* (SP 800-207). https://doi.org/10.6028/NIST.SP.800-207
+National Institute of Standards and Technology. (2023). *Zero trust architecture (SP 800-207).*  
+https://doi.org/10.6028/NIST.SP.800-207
 
-National Institute of Standards and Technology. (2024). *The NIST Cybersecurity Framework (CSF) 2.0*. https://doi.org/10.6028/NIST.ITL.2024.01
+National Institute of Standards and Technology. (2024). *The NIST cybersecurity framework (CSF) 2.0.*  
+https://doi.org/10.6028/NIST.ITL.2024.01
 
-World Economic Forum. (2024). *Global cybersecurity outlook 2024*. https://www.weforum.org/reports/global-cybersecurity-outlook-2024
+World Economic Forum. (2024). *Global cybersecurity outlook 2024.*  
+https://www.weforum.org/reports/global-cybersecurity-outlook-2024
